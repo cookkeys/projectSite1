@@ -1,0 +1,124 @@
+.outer_div_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:  column;
+}
+
+.text1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 450;
+}
+
+.text2{
+    font-size: 17px;
+    margin : 20px 0;
+    font-weight: 475;
+}
+
+.outer_div_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 90px 0;
+}
+
+
+.icon1, .icon2, .icon3, .icon4  {
+    font-size: 50px;
+    text-decoration: underline;
+    border-bottom: 3px solid black;
+    padding-bottom: 12px;
+    margin:10px 0;
+}
+
+.box1, .box2, .box3, .box4  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    flex-direction: column;
+}
+
+.text3{
+    font-size: 15px;
+    margin:10px 0;
+}
+
+.outer_div_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(22, 22, 34);
+}
+
+.outer_div_3_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+    margin: 30px;
+    height: 600px;
+}
+
+.text4{
+    margin-top: 40px 0;
+    font-size: 35px;
+    font-weight: 450;
+    color: white;
+}
+
+.text5{
+    font-size: 17px;
+    margin : 40px 0;
+    font-weight: 475;
+    color: white;
+}
+
+.button1{
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.inner_div_3_2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 25vw;
+    margin: 30px;
+}
+
+.inner_div_3_2 p{
+    margin: 30px;
+    color: white;
+    font-size: 50px;
+}
+
+.outer_div_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 55vh;
+    text-align: center;
+    padding: 60px;
+}
+
+.outer_div_4 p{
+    font-size: 20px;
+    font-weight: 490;
+    height: 15vh;
+}
+
+.inner_div_4{
+    margin-top: 35px;
+}
+
+.icon5{
+    font-size: 35px;
+}

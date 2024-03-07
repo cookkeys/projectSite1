@@ -1,0 +1,20 @@
+.outer_div_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
+    background-color: white;
+}
+
+.outer_div_1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    list-style: none;
+}   
+
+.outer_div_1 li{
+    font-weight: 435;
+}
+
