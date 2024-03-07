@@ -30,7 +30,7 @@ export default function Page() {
     setOpen(true);
   };
 
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(0)
 
   return (
     <div>
@@ -98,15 +98,15 @@ export default function Page() {
       <div className={styles.outer_div_4}>
 
             {
-                value === 0 ? <p>“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”
+                value === 0 ? <p>Two things are infinite: the universe and human stupidity; and Im not sure about the universe.
                 ― Albert Einstein</p>
-                : value === 1 ? <p> “There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”
+                : value === 1 ? <p> There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.
                 ― Albert Einstein</p>
-                : value === 2 ? <p>“I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”
+                : value === 2 ? <p>I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.
                 ― Albert Einstein</p>
-                : value === 3 ? <p>“If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.”
+                : value === 3 ? <p>If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.
                 ― Nikola Tesla</p>
-                : value === 4 ? <p>“The day science begins to study non-physical phenomena, it will make more progress in one decade than in all the previous centuries of its existence.”
+                : value === 4 ? <p>The day science begins to study non-physical phenomena, it will make more progress in one decade than in all the previous centuries of its existence.
                 ― Nikola Tesla</p>
                 : null
             }
